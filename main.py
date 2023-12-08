@@ -117,3 +117,13 @@ print(f'Total time taken: {total_time} seconds')
     print(f'Total time taken: {total_time} seconds')
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
+
+time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
