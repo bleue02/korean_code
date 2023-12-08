@@ -59,6 +59,7 @@ def korean_typing():
         end_time = time.time()
         total_time = int(end_time - start_time)
         print(f'Total time taken: {total_time} seconds')
+<<<<<<< HEAD
 print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
@@ -70,4 +71,52 @@ print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
+=======
+
+        start_time = time.time()
+        for line in story_lines:
+            print(line.strip())
+            saved_text = input('Input: ')
+            if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+                print('Exited game!')
+                sys.exit()
+            print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+
+        start_time = time.time()
+        for line in story_lines:
+            print(line.strip())
+            saved_text = input('Input: ')
+            if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+                print('Exited game!')
+                sys.exit()
+            print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+
+        start_time = time.time()
+        for line in story_lines:
+            print(line.strip())
+            saved_text = input('Input: ')
+            if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+                print('Exited game!')
+                sys.exit()
+            print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+
+            if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+                print('Exited game!')
+                sys.exit()
+            print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+
+
+>>>>>>> foo_1
 korean_typing()
