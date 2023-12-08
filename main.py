@@ -64,6 +64,70 @@ print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
 
+<<<<<<< HEAD
+=======
+            if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+                print('Exited game!')
+                sys.exit()
+            print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+
+
+if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+    if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+        print('Exited game!')
+        sys.exit()
+    print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+        sys.exit()
+    print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+>>>>>>> foo_2
 print(f'Total time taken: {total_time} seconds')
     print('Exited game!')
     sys.exit()
@@ -71,6 +135,7 @@ print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
+<<<<<<< HEAD
 =======
 
         start_time = time.time()
@@ -119,4 +184,19 @@ print(f'Total time taken: {total_time} seconds')
 
 
 >>>>>>> foo_1
+=======
+
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+    print('Exited game!')
+    sys.exit()
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+
+>>>>>>> foo_2
 korean_typing()
