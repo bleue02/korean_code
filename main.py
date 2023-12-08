@@ -65,6 +65,7 @@ end_time = time.time()
 total_time = int(end_time - start_time)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
                 print('Exited game!')
@@ -101,19 +102,56 @@ print(f'Total time taken: {total_time} seconds')
 if 'I WANT TO QUIT THIS GAME' in saved_text.upper():
     print('Exited game!')
     sys.exit()
+=======
+        print_difference(line.strip(), saved_text)
+        end_time = time.time()
+        total_time = int(end_time - start_time)
+        print(f'Total time taken: {total_time} seconds')
+        print('Exited game!')
+        sys.exit()
+    print_difference(line.strip(), saved_text)
+    end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+
+    print_difference(line.strip(), saved_text)
+    end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+    print('Exited game!')
+    sys.exit()
+
+
+>>>>>>> foo_3
 print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
 
+<<<<<<< HEAD
 
     print('Exited game!')
     sys.exit()
+=======
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+    print('Exited game!')
+    sys.exit()
+
+
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+
+
+
+>>>>>>> foo_3
 print_difference(line.strip(), saved_text)
 end_time = time.time()
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
 
+<<<<<<< HEAD
     print('Exited game!')
     sys.exit()
 print_difference(line.strip(), saved_text)
@@ -200,3 +238,31 @@ print(f'Total time taken: {total_time} seconds')
 
 >>>>>>> foo_2
 korean_typing()
+=======
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+korean_typing()
+
+time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
+>>>>>>> foo_3
