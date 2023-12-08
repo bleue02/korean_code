@@ -84,4 +84,15 @@ end_time = time.time()
 total_time = int(end_time - start_time)
 print(f'Total time taken: {total_time} seconds')
 
+   end_time = time.time()
+    total_time = int(end_time - start_time)
+    print(f'Total time taken: {total_time} seconds')
+    print('Exited game!')
+    sys.exit()
+
+
+print_difference(line.strip(), saved_text)
+end_time = time.time()
+total_time = int(end_time - start_time)
+print(f'Total time taken: {total_time} seconds')
 korean_typing()
